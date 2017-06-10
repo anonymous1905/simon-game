@@ -1,0 +1,93 @@
+section {
+  margin: 0 auto;
+  position: relative;
+  width: 620px;
+}
+
+body{
+  background-color: black;
+}
+
+.sequence-entered {
+  background-image: url('https://media3.giphy.com/media/l1KVc2I0KKgTbYEPm/200w.webp#3-grid3');
+}
+.game-ended{
+  background-image: url('https://media2.giphy.com/media/3hHzsvFWwlP1u/giphy.gif');
+}
+
+h1{
+  color: white;
+  font-family: 'Amatic SC';
+  font-size: 100px;
+  text-align: center;
+  margin: 25px;
+}
+
+button {
+  border: 10px solid white;
+  cursor: pointer;
+  height: 300px;
+  margin: 0 -3px;
+  outline: none;
+  padding: 0;
+  width: 300px;
+}
+#green{
+background-color: rgba(46, 179, 43, 0.7);
+border-top-left-radius: 100%;
+}
+#red{
+  background-color: rgba( 240, 51, 40, 0.7);
+  border-top-right-radius: 100%;
+}
+#yellow {
+  background-color: rgba(255, 255, 41, 0.7);
+  border-bottom-left-radius: 100%;
+}
+
+#blue {
+  background-color: rgba(117, 171, 255, 0.7);
+  border-bottom-right-radius: 100%;
+}
+
+#red:hover,
+#red.lighton{
+  background: rgba(254, 35, 34, 1);
+}
+
+#green:hover,
+#green.lighton{
+  background: rgba(35, 200, 82, 1);
+}
+
+#yellow:hover,
+ #yellow.lighton{
+  background: rgba(243, 194, 16, 1);
+}
+
+#blue:hover,
+#blue.lighton {
+  background: rgba(0, 103, 208, 1);
+}
+
+
+#counter {
+  background: #000;
+  border-radius: 50%;
+  box-sizing: border-box;
+  color: #fff;
+  font-family: Arial;
+  font-size: 100px;
+  line-height: 200px;
+  height: 200px;
+  margin-top: -100px;
+  margin-left: -108px;
+  position: absolute;
+  left: 50%;
+  text-align: center;
+  top: 50%;
+  width: 200px;
+}
+section.blocked {
+  pointer-events: none;
+}
